@@ -1,1 +1,24 @@
+<<<<<<< HEAD
 /target
+=======
+# --- Build & Binary Artefakte ---
+target/
+*.out
+*.o
+*.so
+*.a
+
+# --- Lokale Konfigurations-Integrität ---
+# Wir ignorieren keine Skripte, da diese Teil deiner Architektur sind.
+# Wir ignorieren nur lokale Umgebungsvariablen oder temporäre Logs.
+.env
+*.log
+*.tmp
+*.bak
+
+# --- System-Meta-Daten ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+>>>>>>> 0ce3eeffb913ed62a0e9a71f813e24865772f5f4
