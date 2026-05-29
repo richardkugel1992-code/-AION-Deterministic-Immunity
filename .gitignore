@@ -1,0 +1,20 @@
+# --- Build & Binary Artefakte ---
+target/
+*.out
+*.o
+*.so
+*.a
+
+# --- Lokale Konfigurations-Integrität ---
+# Wir ignorieren keine Skripte, da diese Teil deiner Architektur sind.
+# Wir ignorieren nur lokale Umgebungsvariablen oder temporäre Logs.
+.env
+*.log
+*.tmp
+*.bak
+
+# --- System-Meta-Daten ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
